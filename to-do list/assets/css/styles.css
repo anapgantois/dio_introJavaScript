@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(242, 218, 255);
+}
+
+h1 {
+    color: rgb(73, 29, 114);
+    font-size: 60px;
+}
+
+button {
+    border: 1px solid rgb(184, 128, 230);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    border: 1px solid rgb(184, 128, 230);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
